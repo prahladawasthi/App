@@ -1,1 +1,18 @@
 
+server:
+  port: 9082
+  
+spring:
+  application:
+    name: gateway    
+  cloud:
+    config:
+      uri:  http://localhost:8800
+      server:
+        git:
+          clone-on-start=true
+          
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9090/eureka/
