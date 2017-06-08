@@ -4,8 +4,21 @@ server:
 spring:
   application:
     name: userService
-    
-eureka:
-  client:
-    serviceUrl:
+  cloud: 
+    config: 
+      uri: http://localhost:8800
+    server: 
+      git: 
+        clone-on-start: true
+
+userService:
+  getUser: 
+    url: 
+      mapping: /user
+      
+eureka: 
+  instance: 
+    appname: ${spring.application.name}
+  client: 
+    service-url: 
       defaultZone: http://localhost:9090/eureka/
