@@ -24,10 +24,10 @@ eureka:
 
 zuul:
   routes:
-    user:
+    userService:
       path: /user/**
       serviceId: userService
-    question:
+    questionService:
       path: /question/**
       serviceId: questionService
       
