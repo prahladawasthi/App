@@ -24,11 +24,13 @@ eureka:
 
 zuul:
   routes:
-    account:
+    user:
       path: /user/**
       service-id: userService
+    question:
       path: /question/**
       service-id: questionService
+      
       
 hystrix: 
   command: 
