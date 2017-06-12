@@ -12,7 +12,29 @@ spring:
         git:
           clone-on-start=true
           
-eureka:
-  client:
-    serviceUrl:
+eureka: 
+  instance:
+    appname: ${spring.application.name}
+  client: 
+    service-url: 
       defaultZone: http://localhost:9090/eureka/
+
+zuul:
+  routes:
+    account:
+      path: /user/**
+      service-id: userService
+      path: /question/**
+      service-id: questionService
+      
+hystrix: 
+  command: 
+    default: 
+      execution: 
+        isolation: 
+          thread: 
+            timeoutInMilliseconds: 60000
+ribbon: 
+  eureka: 
+    enabled: true
+  ServerListRefreshInterval: 1
