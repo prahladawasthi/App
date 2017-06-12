@@ -26,10 +26,10 @@ zuul:
   routes:
     userService:
       path: /user/**
-      serviceId: userService
+      service-id: userService
     questionService:
       path: /question/**
-      serviceId: questionService
+      service-id: questionService
       
       
 hystrix: 
