@@ -11,6 +11,9 @@ spring:
       server:
         git:
           clone-on-start=true
+
+hystrix: 
+  streamEnabled: true
           
 eureka: 
   instance:
