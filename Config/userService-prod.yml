@@ -2,3 +2,8 @@ userService:
  getUser: 
   url: 
    mapping: /
+security: 
+ management: 
+  enabled: false
+  
+
