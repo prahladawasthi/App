@@ -11,7 +11,7 @@ spring:
       git: 
         clone-on-start: true
 
-userService:
+userService: 
   getUser: 
     url: 
       mapping: /
