@@ -14,7 +14,7 @@ spring:
 userService:
   getUser: 
     url: 
-      mapping: /user
+      mapping: /
       
 eureka: 
   instance: 
