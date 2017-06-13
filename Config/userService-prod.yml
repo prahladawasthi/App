@@ -1,9 +1,4 @@
 
-userService: 
-  getUser: 
-    url: 
-      mapping: /
-      
 eureka: 
   instance: 
     appname: ${spring.application.name}
