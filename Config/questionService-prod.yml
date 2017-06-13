@@ -1,24 +1,8 @@
-server:
-  port: 9091
- 
-spring:
-  application:
-    name: questionService
-  cloud: 
-    config: 
-      uri: http://localhost:8800
-    server: 
-      git: 
-        clone-on-start: true
-
 questionService:
   getQuestion: 
     url: 
       mapping: /
       
-eureka: 
-  instance: 
-    appname: ${spring.application.name}
-  client: 
-    service-url: 
-      defaultZone: http://localhost:9090/eureka/
+management: 
+ security:  
+  enabled: false
