@@ -1,1 +1,4 @@
-message=Prahalad Testing....
+userService: 
+ getUser: 
+  url: 
+   mapping: /
