@@ -1,10 +1,6 @@
 spring:
   application:
     name: userService
-  cloud: 
-    config: 
-      uri: http://localhost:8800
-    
 
 userService: 
   getUser: 
