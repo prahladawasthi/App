@@ -2,8 +2,7 @@ userService:
  getUser: 
   url: 
    mapping: /
-security: 
- management: 
+   
+management: 
+ security:  
   enabled: false
-  
-
