@@ -1,9 +1,9 @@
 zuul:
   routes:
-    userService:
+    user-service:
       path: /user/**
       service-id: user-service
-    questionService:
+    question-service:
       path: /question/**
       service-id: question-service
       
