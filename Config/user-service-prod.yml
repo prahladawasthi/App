@@ -1,11 +1,13 @@
-userService: 
- getUser: 
-  url: 
-   mapping: /
-
 management:
   security:
     enabled: false
 security:
   basic:
     enabled: false
+    
+userService: 
+ getUser: 
+  url: 
+   mapping: /
+
+
