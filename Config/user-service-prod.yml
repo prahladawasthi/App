@@ -3,6 +3,9 @@ userService:
   url: 
    mapping: /
    
-management: 
- security:  
-  enabled: false
+management:
+  security:
+    enabled: false
+security:
+  basic:
+    enabled: false
