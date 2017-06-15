@@ -4,6 +4,7 @@ management:
 security:
   basic:
     enabled: false
+
 zuul:
   routes:
     user-service:
