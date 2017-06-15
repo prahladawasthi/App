@@ -7,7 +7,7 @@ security:
 
 zuul:
   routes:
-    user-service:
+    users:
       path: /user/**
       serviceId: user-service
       
