@@ -1,0 +1,8 @@
+---
+applications:
+- name: AwasthiAG
+  memory: 512M
+  instances: 1  
+  routes:
+  - route: awasthiag.cfapps.io
+  path: APIGateway-0.0.1-SNAPSHOT.jar
