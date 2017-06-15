@@ -8,10 +8,10 @@ zuul:
   routes:
     user-service:
       path: /user/**
-      service-id: user-service
+      serviceId: user-service
     question-service:
       path: /question/**
-      service-id: question-service
+      serviceId: question-service
       
       
 hystrix: 
