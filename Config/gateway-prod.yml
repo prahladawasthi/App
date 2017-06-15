@@ -6,7 +6,7 @@ security:
     enabled: false
 zuul:
   routes:
-    user:
+    user-service:
       path: /user/**
       serviceId: user-service
       
