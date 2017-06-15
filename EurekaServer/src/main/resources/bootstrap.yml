@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eureka
+  cloud:
+    config:
+      uri: https://awasthics.cfapps.io/
+      server: 
+      git:
+        clone-on-start: true
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
