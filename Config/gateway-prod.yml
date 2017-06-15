@@ -6,13 +6,9 @@ security:
     enabled: false
 zuul:
   routes:
-    user-service:
+    user:
       path: /user/**
       serviceId: user-service
-    question-service:
-      path: /question/**
-      serviceId: question-service
-      
       
 hystrix: 
   streamEnabled: true
