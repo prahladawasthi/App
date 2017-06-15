@@ -7,4 +7,4 @@ security:
 userService:
   getUser:
     url:
-      mapping: /home/
+      mapping: /
