@@ -7,9 +7,11 @@ security:
 
 zuul:
   routes:
-    users:
-      path: /user11/**
+    user-service:
+      path: /user/**
       serviceId: user-service
+      stripPrefix: false
+      sensitiveHeaders: Authorization
       
 hystrix: 
   streamEnabled: true
