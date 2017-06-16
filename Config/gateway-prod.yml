@@ -8,7 +8,7 @@ security:
 zuul:
   routes:
     users:
-      path: /user/**
+      path: /user11/**
       serviceId: user-service
       
 hystrix: 
